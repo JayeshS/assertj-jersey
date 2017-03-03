@@ -25,7 +25,7 @@ public class ResponseAssertTest {
     }
 
     @Test
-    public void shouldX() {
+    public void assertJsonResponse() {
         STUB_SERVER.stubFor(get(urlMatching("/index"))
                 .willReturn(
                         aResponse()
